@@ -1,24 +1,32 @@
 [submodule "bundle/vundle"]
 	path = bundle/vundle
 	url = http://github.com/gmarik/vundle.git
+	ignore = untracked
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = http://github.com/tpope/vim-fugitive.git
+	ignore = untracked
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = http://github.com/altercation/vim-colors-solarized.git
+	ignore = untracked
 [submodule "bundle/coffeScript-VIM-Snippets"]
 	path = bundle/coffeScript-VIM-Snippets
 	url = http://github.com/carlosvillu/coffeScript-VIM-Snippets.git
+	ignore = untracked
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = http://github.com/kchmck/vim-coffee-script.git
+	ignore = untracked
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = http://github.com/vim-ruby/vim-ruby.git
+	ignore = untracked
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = http://github.com/tpope/vim-markdown.git
+	ignore = untracked
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = http://github.com/tpope/vim-surround.git
+	ignore = untracked
