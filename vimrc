@@ -36,7 +36,7 @@ filetype plugin indent on
 " Read config when vimrc is written
 autocmd! bufwritepost .vimrc source %
 
-let mapleader=","
+let mapleader=";"
 
 set number
 set ruler
