@@ -9,6 +9,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " ### vim bundles
+Bundle 'vim-scripts/taglist.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-fugitive'
 Bundle 'altercation/vim-colors-solarized'
@@ -17,6 +18,17 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'tpope/vim-surround'
+Bundle 'chaquotay/ftl-vim-syntax'
+Bundle 'vim-scripts/loremipsum'
+Bundle 'godlygeek/tabular'
+Bundle 'docunext/closetag.vim'
+Bundle 'nono/jquery.vim'
+Bundle 'juvenn/mustache.vim'
+Bundle 'tpope/vim-speeddating'
+Bundle 'tpope/vim-commentary'
+Bundle 'tpope/vim-repeat'
+Bundle 'vim-scripts/Arduino-syntax-file'
+Bundle 'jeffkreeftmeijer/vim-numbertoggle'
 
 filetype plugin indent on
 " end vundle config
