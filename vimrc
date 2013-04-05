@@ -53,6 +53,7 @@ set ai
 set si
 set wrap
 set scrolloff=3
+set relativenumber
 
 " ## Mapped keys
 " show JS compiled from CS
