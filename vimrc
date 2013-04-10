@@ -29,6 +29,7 @@ Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-repeat'
 Bundle 'vim-scripts/Arduino-syntax-file'
 Bundle 'jeffkreeftmeijer/vim-numbertoggle'
+Bundle 'sleistner/vim-jshint'
 
 filetype plugin indent on
 " end vundle config
