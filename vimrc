@@ -30,6 +30,7 @@ Bundle 'tpope/vim-repeat'
 Bundle 'vim-scripts/Arduino-syntax-file'
 Bundle 'jeffkreeftmeijer/vim-numbertoggle'
 Bundle 'sleistner/vim-jshint'
+Bundle 'wincent/Command-T.git'
 
 filetype plugin indent on
 " end vundle config
@@ -64,7 +65,7 @@ map <F2> :NERDTreeToggle<CR>
 " remove trailing spaces
 map <leader><space> :%s/\s\+$//<CR>
 " toggle hard/soft tabs
-map <leader>t :set noexpandtab!<CR>
+map <leader>T :set noexpandtab!<CR>
 " toggle showing tabs and EOLs
 nmap <silent> <leader>s :set nolist!<CR>
 " <leader>-directional will switch splits
