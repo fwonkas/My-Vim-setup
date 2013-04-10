@@ -57,6 +57,8 @@ set wrap
 set scrolloff=3
 set relativenumber
 
+set mouse=a
+
 " ## Mapped keys
 " show JS compiled from CS
 map <F1> :CoffeeCompile<CR>
