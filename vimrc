@@ -1,5 +1,7 @@
 " # vim config
 
+syntax enable
+
 set nocompatible
 
 " ## vundle config
@@ -37,6 +39,13 @@ filetype plugin indent on
 
 " Read config when vimrc is written
 autocmd! bufwritepost .vimrc source %
+
+" Solarized
+set background=dark
+colorscheme solarized
+
+set t_Co=256
+set colorcolumn=80
 
 let mapleader=";"
 
