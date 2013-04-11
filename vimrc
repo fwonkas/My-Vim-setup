@@ -30,7 +30,7 @@ Bundle 'tpope/vim-speeddating'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-repeat'
 Bundle 'vim-scripts/Arduino-syntax-file'
-Bundle 'jeffkreeftmeijer/vim-numbertoggle'
+" Bundle 'jeffkreeftmeijer/vim-numbertoggle'
 Bundle 'sleistner/vim-jshint'
 Bundle 'wincent/Command-T.git'
 
