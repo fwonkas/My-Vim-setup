@@ -2,7 +2,3 @@
 	path = bundle/vundle
 	url = http://github.com/gmarik/vundle.git
 	ignore = dirty
-[submodule "bundle/Command-T"]
-	path = bundle/Command-T
-	url = https://github.com/wincent/Command-T.git
-	ignore = dirty
