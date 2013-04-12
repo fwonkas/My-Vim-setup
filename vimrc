@@ -89,6 +89,8 @@ nmap <leader>j :wincmd j<CR>
 nmap <leader>k :wincmd k<CR>
 nmap <leader>l :wincmd l<CR>
 
+map <leader>' :noh<CR>
+
 " ### Various bracket an paren completions
 inoremap {      {}<Left>
 inoremap {<CR>  {<CR>}<Esc>O
