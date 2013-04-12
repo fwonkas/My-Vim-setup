@@ -96,6 +96,8 @@ nmap <leader>j :wincmd j<CR>
 nmap <leader>k :wincmd k<CR>
 nmap <leader>l :wincmd l<CR>
 
+" ## Fat-finger quit commands
+" I'm always aaccidently typing :Q or :Wq. This lets me do that.
 if has("user_commands")
   command! -bang -nargs=? -complete=file E e<bang> <args>
   command! -bang -nargs=? -complete=file W w<bang> <args>
