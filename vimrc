@@ -42,6 +42,8 @@ filetype plugin indent on
 " Read config when vimrc is written
 autocmd! bufwritepost .vimrc source %
 
+autocmd! BufNewFile,BufRead *.ftl setlocal ft=ftl
+
 " Solarized
 set background=dark
 colorscheme solarized
