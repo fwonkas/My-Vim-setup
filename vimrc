@@ -75,8 +75,11 @@ set mouse=a
 " ## Mapped keys
 " show JS compiled from CS
 map <F1> :CoffeeCompile<CR>
-" show/hide nerdtree pane
+" NerdTree shortcuts
 map <F2> :NERDTreeToggle<CR>
+nmap <leader>] :NERDTreeFocus<CR>
+nmap <leader>[ :NERDTreeClose<CR>
+nmap <leader>\ :NERDTreeToggle<CR>
 " remove trailing spaces
 map <leader><space> :%s/\s\+$//<CR>
 " toggle hard/soft tabs
