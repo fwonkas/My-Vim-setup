@@ -31,10 +31,6 @@ Bundle 'tpope/vim-repeat'
 Bundle 'vim-scripts/Arduino-syntax-file'
 Bundle 'sleistner/vim-jshint'
 Bundle 'wincent/Command-T.git'
-" Bundle 'vim-scripts/vcscommand.vim'
-" Bundle 'garbas/vim-snipmate'
-" Bundle 'carlosvillu/coffeScript-VIM-Snippets'
-" Bundle 'jeffkreeftmeijer/vim-numbertoggle'
 
 filetype plugin indent on
 " end vundle config
@@ -75,17 +71,25 @@ set mouse=a
 " ## Mapped keys
 " show JS compiled from CS
 map <F1> :CoffeeCompile<CR>
+
 " NerdTree shortcuts
 map <F2> :NERDTreeToggle<CR>
 nmap <leader>] :NERDTreeFocus<CR>
 nmap <leader>[ :NERDTreeClose<CR>
 nmap <leader>\ :NERDTreeToggle<CR>
+
 " remove trailing spaces
 map <leader><space> :%s/\s\+$//<CR>
+
 " toggle hard/soft tabs
 map <leader>T :set noexpandtab!<CR>
+
 " toggle showing tabs and EOLs
 nmap <silent> <leader>s :set nolist!<CR>
+
+" Clear previous search highlights
+nmap <leader>' :noh<CR>
+
 " <leader>-directional will switch splits
 nmap <leader>h :wincmd h<CR>
 nmap <leader>j :wincmd j<CR>
