@@ -73,7 +73,6 @@ set mouse=a
 map <F1> :CoffeeCompile<CR>
 
 " NerdTree shortcuts
-map <F2> :NERDTreeToggle<CR>
 nmap <leader>] :NERDTreeFocus<CR>
 nmap <leader>[ :NERDTreeClose<CR>
 nmap <leader>\ :NERDTreeToggle<CR>
