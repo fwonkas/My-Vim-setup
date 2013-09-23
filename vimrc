@@ -108,6 +108,10 @@ nnoremap k gk
 " Quick way to write a file when I should have used sudo, but forgot.
 cmap w!! w !sudo tee > /dev/null %
 
+" set out tab characters, trailing whitespace and invisible spaces visually
+set list
+set listchars=tab:>.,trail:.,nbsp:.
+
 " ## Fat-finger quit commands
 " I'm always aaccidently typing :Q or :Wq. This lets me do that.
 if has("user_commands")
