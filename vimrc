@@ -29,8 +29,10 @@ Bundle 'tpope/vim-speeddating'
 Bundle 'tpope/vim-commentary'
 Bundle 'tpope/vim-repeat'
 Bundle 'vim-scripts/Arduino-syntax-file'
-Bundle 'sleistner/vim-jshint'
+" Bundle 'sleistner/vim-jshint'
 Bundle 'wincent/Command-T.git'
+Bundle 'rking/ag.vim'
+Bundle 'tclem/vim-arduino'
 
 filetype plugin indent on
 " end vundle config
@@ -55,9 +57,9 @@ set hlsearch
 set incsearch
 set showmatch
 
-set shiftwidth=2
-set tabstop=2
-set softtabstop=2
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
 set smarttab
 set noexpandtab
 set ai
@@ -108,3 +110,6 @@ if has("user_commands")
   command! -bang QA qa<bang>
   command! -bang Qa qa<bang>
 endif
+
+au BufRead,BufNewFile *.pde set filetype=arduino
+au BufRead,BufNewFile *.ino set filetype=arduino
