@@ -101,6 +101,10 @@ nmap <leader>l :wincmd l<CR>
 nnoremap <silent> <Leader>= :exe "vertical resize " . (winwidth(0) * 3/2)<CR>
 nnoremap <silent> <Leader>- :exe "vertical resize " . (winwidth(0) * 2/3)<CR>
 
+" j and k can move naturally through wrapped lines
+nnoremap j gj
+nnoremap k gk
+
 " Quick way to write a file when I should have used sudo, but forgot.
 cmap w!! w !sudo tee > /dev/null %
 
